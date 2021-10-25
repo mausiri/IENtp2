@@ -26,16 +26,42 @@
     padding-left: 50px;
 }
 
+.navtxt:hover tr a{
+    color: #f74545;
+}
+
 .title h1 {
     font-family: alternate-gothic-atf, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 10em;
+    font-size: 9em;
+}
+
+.title2 h2 {
+    font-family: alternate-gothic-atf, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 7em;
+    padding-top: 100px;
+    margin-left: 60px;
+}
+
+.title3 h3 {
+    font-family: alternate-gothic-atf, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4em;
+    padding-top: 80px;
+    text-align: center;
 }
 
 .margen1 {
-    padding-top: 150px;
-    padding-left: 50px;
+    padding-top: 100px;
+    padding-left: 65px;
+}
+
+.margen2 {
+    margin-left: 60px;
 }
 
 .txtRegular {
@@ -43,12 +69,231 @@
     font-family: libre-franklin, sans-serif;
     font-size: 21px;
     font-weight: 400;
-    letter-spacing: 1px;
     line-height: 40px;
 }
 
+.button {
+    margin-top: 30px;
+    border: none;
+    background-color: #f74545;
+    color: white;
+    text-align: center;
+    width: 190px;
+    height: 60px;
+    padding: 18px;
+    padding-top: 11px;
+    font-size: 23px;
+    font-weight: 700;
+}
 
+.button:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 0.2s;
+}
 
+.button2Margen {
+    position: absolute;
+    bottom: -1550px;
+    right: 600px;
+}
+
+.button2 {
+    margin-top: 40px;
+    border: none;
+    background-color: #f74545;
+    color: white;
+    text-align: center;
+    width: 300px;
+    height: 65px;
+    padding: 20px;
+    padding-top: 15px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.button2:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 0.2s;
+}
+
+.button3Margen {
+    margin-left: 630px;
+    
+}
+
+.positionTabla {
+    position: absolute;
+    bottom: -500px;
+    margin-left: 60px;
+}
+
+.img1 {
+    position: absolute;
+    bottom: -400px;
+    margin-left: 60px;
+}
+
+.img2 {
+    position: absolute;
+    bottom: -700px;
+    left: 750px;   
+}
+
+.img3 {
+    position: absolute;
+    bottom: -1020px;
+    margin-left: 60px;
+}
+
+.img4 {
+    position: absolute;
+    bottom: -1300px;
+    left: 750px;   
+}
+
+.txtPapa {
+    position: absolute ;
+    margin-left: 2px;
+    bottom: -50px;
+}
+
+.txtPapa h2 {
+    font-family: alternate-gothic-atf, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em; 
+}
+
+.txtPapa a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.txtPapa:hover {
+    color: red;
+    transition-duration: 0.2s;
+}
+
+.txtRetail {
+    position: absolute;
+    margin-left: 690px;
+    bottom: -320px;
+}
+
+.txtRetail h2 {
+    font-family: alternate-gothic-atf, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+}
+
+.txtRetail p {
+    font-size: 19px;
+}
+
+.txtRetail:hover {
+    color: red;
+    transition-duration: 0.2s;
+}
+
+.txtMicrosoft {
+    position: absolute ;
+    margin-left: 2px;
+    bottom: -650px;
+}
+
+.txtMicrosoft h2 {
+    font-family: alternate-gothic-atf, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+}
+
+.txtMicrosoft p {
+    font-size: 19px;
+}
+
+.txtMicrosoft:hover {
+    color: red;
+    transition-duration: 0.2s;
+}
+
+.txtChamber {
+    position: absolute;
+    margin-left: 690px;
+    bottom: -920px;
+}
+
+.txtChamber h2 {
+    font-family: alternate-gothic-atf, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+}
+
+.txtChamber p {
+    font-size: 19px;
+}
+
+.txtChamber:hover {
+    color: red;
+    transition-duration: 0.2s;
+}
+
+.square {
+    height: 1550px;
+}
+
+.square2 {
+    height: 700px;
+}
+
+.txtDesign {
+    margin-top: 8px;
+    margin-left: 60px;
+    font-family: libre-franklin, sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.readMore {
+    font-family: alternater-gothic-atf, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    line-height: 40px;
+    margin-left: 60px;
+    color: black;
+}
+
+.readMore:hover {
+    color: red;
+    transition-duration: 0.2s;
+}
+
+.clients td img {
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.txtFinal {
+    margin-top: 8px;
+    font-family: libre-franklin, sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.txtCopy {
+    margin-top: 8px;
+    font-family: libre-franklin, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
 
 
 
